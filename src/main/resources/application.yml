@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    cache: false
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/a?useSSL=false&serverTimezone=GMT
+    username: LH
+    password: whtbts159753
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
